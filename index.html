@@ -7,10 +7,53 @@
 </head>
 <style>
 
+h1::first-letter{
+	color:blue;
+	font-size: 50px;
+}
+h1{
+	position:relative;
+	top:5px;
+	left: 5px;
+	backgroun-color: green;
+	z-index:2;
+}
+ span{
+	position:absolute;
+	top: 50px;
+	right: 5px;
+	z-index:1;
+ }
+ p{
+	position:fixed;
+	top: 40px;
+	left: 50px;
+	background-color: yellow;
+	
+ }
+ body{
+	height:100vh;
+ }
+ body{
+                display: flex;
+        }
+* {
+     box-sizing: border-box;
+   }
+
 </style>
 <body>
+<h1>
+	Welcome
+</h1>
 
+<span> 
+	Spannn
+</span>
 
+<p>
+	Text
+</p>
 
 	
 </body>
